@@ -27,7 +27,7 @@ project(STB VERSION 1.0.0)
 set(TARGET_PUBLIC_HDRS stb_image.h stb_image_write.h stb_rect_pack.h stb_vorbis.h)
 
 # http://stackoverflow.com/a/11583676
-add_library(STB INTERFACE)
+add_library(STB INTERFACE ${TARGET_PUBLID_HDRS})
 
 #### install 
 
